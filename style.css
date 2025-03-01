@@ -1,0 +1,275 @@
+body {
+    background-color: #c0a585; /* Warna Cream */
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px;
+    font-size: 16px;
+    color: #4d2b0a;
+}
+
+nav a {
+    text-decoration: none;
+    color: #5b2d1c;
+    transition: all 0.3s ease;
+}
+
+nav a:hover, nav a.active {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px;
+}
+
+.text-content h1 {
+    font-size: 50px;
+    color: #5a482c; /* Warna Merah Gelap */
+    line-height: 1.2;
+    margin: 0;
+}
+
+.image-content img {
+    width: 450px;
+    height: auto;
+    border-radius: 30% 70% 70% 30%; /* Bentuk rounded yang aesthetic */
+    object-fit: cover;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        text-align: center;
+        padding: 50px;
+    }
+    
+    .image-content img {
+        width: 100%;
+        border-radius: 50px;
+    }
+}
+h2 {
+    font-size: 30px;
+    color: #5d4427;
+    margin: 0;
+    line-height: 1.2;
+    text-align: center;
+    font-family: 'Playfair Display', serif; 
+    font-weight: 300;
+}
+
+.container h1 {
+    animation: fadeIn 1.5s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .judul {
+    align-items: center;
+    text-align: center;
+    padding: 100px;
+    font-weight: bold;
+}
+
+.photo-collage img {
+    width: 300px;
+    border-radius: 360px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+    margin: 10px auto; /* Ini bikin fotonya ketengah */
+    display: block; /* Biar margin auto bisa jalan */
+    text-align: center;
+}
+
+.about-container {
+    text-align: center;
+    padding: 20px;
+    margin: 50px auto;
+    width: 70%;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+  }
+  
+  .about-container h2 {
+    font-size: 2rem;
+    color: #e9b7a8;
+    margin-bottom: 20px;
+    color: hsla(31, 24%, 66%, 0.501);
+  }
+  
+  .bio p {
+    font-size: 1.2rem;
+    color: hsl(36, 73%, 27%);
+    line-height: 1.8;
+    margin-bottom: 10px;
+  }
+  .pgaleri {
+    margin: 0 2cm;
+  }
+  
+  .pgaleri p {
+    text-align: justify;
+    color: #442405;
+  }
+  .pgaleri h1{
+    color: #322004;
+  }
+
+  .foto {
+    display: flex;
+    align-items: center; /* Biar sejajar ke tengah */
+    gap: 30px; /* Jarak antara foto dan tulisan */
+  }
+  
+  .foto img {
+    width: 500px; /* Ukuran fotonya */
+  }
+  
+  .foto-text {
+    max-width: 600px; /* Biar tulisan nggak melebar */
+    text-align: justify; /* Biar rata kanan kiri */
+  }
+
+  .foto {
+    display: flex;
+    align-items: center;
+    gap: 50px; /* Jarak antara foto dan tulisan */
+  }
+  
+  .foto img {
+    width: 40%; /* Ukuran foto lebih kecil */
+    height: auto; /* Biar ukuran menyesuaikan */
+    object-fit: cover;
+  }
+  
+  .story  {
+    width: 60%; /* Tulisan di sebelah kanan */
+    text-align: justify;
+    font-size: 18px;
+    line-height: 1.8;
+  }
+
+  .story h1 {
+    font-size: 20px;
+    color: #765c53;
+    margin-bottom: 0; /* Biar rapat */
+    padding-bottom: 0;
+    padding: 0;
+    
+  }
+  .story h3 {
+    margin-top: 0; /* Biar nempel langsung ke atas */
+    color: #322004;
+  }
+
+  .chat-box {
+    width: 80%;
+    max-width: 700px;
+    background: #FBEAE0;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px auto;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+.chat {
+    text-align: center;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 15px;
+    max-width: 70%;
+    display: inline-block;
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+}
+.chat-img {
+    margin: 20px auto; /* Biar ke tengah otomatis */
+    max-width: 400px; /* Sesuaikan ukuran */
+    border-radius: 20px;
+    padding: 20px; /* Biar ada jarak antara foto dan tulisan */
+    display: flex;
+    flex-direction: column; /* Susun vertikal */
+    align-items: center; /* Foto & tulisan ke tengah */
+    justify-content: center; /* Tengah secara vertikal */
+    gap: 10px; /* Jarak antara foto dan teks */
+  }
+  
+  .chat-box p{
+    text-align: center;
+  }
+  .foto img:hover {
+    transform: scale(1.05); /* Efek zoom dikit pas dihover */
+  }
+
+  .detail h1 {
+    text-align: center;
+    border: 2px solid #735423dd; 
+    display: inline-block; 
+    padding: 5px 20px; 
+    border-radius: 10px; 
+    margin: 0 auto; /* Biar otomatis ke tengah */
+    color: #d8c6a8;
+}
+.detail {
+    text-align: center; /* Ini buat bungkusan parent biar isinya ketengah */
+    
+}
+
+
+
+.button-container {
+    text-align: right;
+    margin-top: 20px;
+    line-height: 1.2;
+}
+.button-container {
+    position: absolute;
+    top: 200px;
+    right: 80px;
+}
+.education-button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #4b2b20;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+#education {
+    margin-top: 50px;
+    padding: 1px;
+    background-color: #ffe4c4;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+  
+  

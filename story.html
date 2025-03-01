@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aurel Moura</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Satoshi:wght@300;400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <h2>Aurel Moura Athanafisah</h2>
+<nav>
+    <a href="index.html" >Home</a>
+    <a href="about.html" >About</a>
+    <a href="galery.html"  >Galery</a>
+    <a href="story.html" class="active"  >Story</a>
+    <a href="contact.html">Contact</a>
+</nav> <br><br><br>
+
+<div class="pgaleri">
+    <h1>About me</h1>
+    <p> Hey there! I'm Aurel Moura Athanafisah, <br>
+        an Informatics Engineering student who's passionate <br>
+        about UI/UX design, product development, and <br>
+        everything tech-related. I love turning ideas into <br>
+         beautiful, user-friendly interfaces that not only <br>
+         look good but also deliver a smooth experience.
+        </p> <br>
+  </div>
+
+<div class="button-container">
+        <button class="education-button" onclick="scrollToEducation()">Education</button>
+    </div>
+    <div id="education">
+    </div>
+
+    <script>
+        function scrollToEducation() {
+    const educationSection = document.querySelector(".detail"); // Pakai . untuk class
+    if (educationSection) {
+        const elementPosition = educationSection.offsetTop; // Dapatkan posisi elemen
+        window.scrollTo({
+            top: elementPosition - 100, // Sesuaikan angka ini agar scroll pas
+            behavior: "smooth"
+        });
+    } else {
+        console.error("Elemen dengan class 'detail' tidak ditemukan.");
+    }
+}
+
+    </script>
+    
+
+<script>
+    function scrollToEducation() {
+        document.getElementById("education").scrollIntoView({ behavior: "smooth" });
+    }
+</script>
+  <div class="foto">
+    <img src="foto2.jpg" alt="Aurel">
+<div class="story">
+    <h1>THE STORY OF</h1>
+    <h3>Aurel Moura</h3>
+    <p>  
+        Every journey in life holds precious stories. <br>
+         My journey began at TK IT Auladuna , <br>
+          the place where I first discovered the world <br>
+          of education. There, I learned many new things, <br>
+          made friends, and developed a great curiosity about the world. <br>
+        After finishing kindergarten, I continued my education at <br>
+        SMPIT IQRA' Kota Bengkulu. These years were filled with <br>
+        new experiences, from academic learning to participating <br>
+        in various organizational activities. This was the time <br>
+        when I began to discover my passion for design and technology. <br>
+        My educational journey continued at SMAIT IQRA' Kota Bengkulu ,<br>
+         where I became more active in organizations, met new best friends, <br>
+         and started diving deeper into the world of technology. It was here <br>
+         that I became more confident that my future would be about creating <br>
+         something useful through technology. <br>
+        Now, I'm continuing my journey at Bengkulu University, <br>
+        majoring in Informatics Engineering, with hopes of <br>
+        constantly learning, growing, and turning my dreams into reality. <br></p> <br><br><br>
+</div>
+   
+</div>
+ <div class="detail">
+    <h1>Education</h1>
+ </div>
+
+
+<div class="chat-box">
+    <img src="TKIT.jpg" alt="Chat Screenshot" class="chat-img"> 
+    <p>-2010-</p>
+    <p>Aku memulai perjalanan sekolahku di TKIT Auladuna 2 sekitar tahun 2010-2011.
+         Waktu itu aku masih anak kecil yang pemalu, tapi suka banget ikut tampil di pentas seni.
+          🥰. TKIT Auladuna  juga ngajarin aku tentang 
+        ilai-nilai agama sejak kecil, mulai dari hafalan 
+        surat pendek sampai sholat berjamaah bareng teman-teman</p>
+</div>
+
+<div class="chat-box">
+    <img src="SDIT.jpg" alt="Chat Screenshot" class="chat-img"> 
+    <p>-2011-2017-</p>
+    <p>Aku melanjutkan sekolah di SDIT IQRA 2 Kota Bengkulu dari tahun 2011 - 2017. 
+        Di sekolah ini aku belajar banyak hal, mulai dari ilmu agama, pelajaran umum,
+         sampai kegiatan ekstrakurikuler. Aku pernah tampil menari saat acara perpisahan 
+         sekolah bareng teman-teman. Di sini aku mulai belajar menjadi lebih percaya diri dan berani tampil di depan banyak orang. Masa-masa 
+        SD ini jadi bagian yang sangat berkesan dalam perjalanan pendidikanku.  💕</p>
+</div>
+
+<div class="chat-box">
+    <img src="SMPIT.jpg" alt="Chat Screenshot" class="chat-img"> 
+    <p>-2017-2020-</p>
+    <p>Aku melanjutkan pendidikan di SMPIT IQRA' Kota Bengkulu dari tahun 2017 - 
+        2020. Di sinilah awal mula aku mulai tertarik dengan dunia desain dan komputer. 
+        Aku masuk ke kelas ICT (Information and Communication Technology), di mana hampir 
+        setiap hari aku bawa laptop ke sekolah. Di kelas ini aku belajar tentang teknologi,
+         mulai dari Microsoft Office, edit video, sampai desain sederhana.
+
+        Dari sinilah minatku terhadap desain mulai muncul, aku sering ngulik 
+        sendiri tentang cara bikin desain yang bagus dan menarik. Meskipun awalnya
+         cuma iseng-iseng, tapi aku mulai ngerasa nyaman dan enjoy banget sama 
+         dunia desain. Kelas ICT ini juga yang bikin aku makin akrab sama komputer 
+         dan teknologi sampai akhirnya aku ngerasa pengen banget lanjut kuliah di 
+         jurusan yang berhubungan dengan teknologi.💕</p>
+</div>
+
+<div class="chat-box">
+    <img src="SMAIT.jpg" alt="Chat Screenshot" class="chat-img"> 
+    <p>-2020-2023-</p>
+    <p>Setelah tamat SMP, aku melanjutkan sekolah di SMAIT IQRA Kota Bengkulu dari tahun
+         2020 - 2023. Masa SMA ku terasa beda karena saat itu dunia sedang dilanda pandemi
+          COVID-19. Hampir setengah dari perjalanan SMA ku dihabiskan dengan sistem belajar
+           daring dari rumah. Karena pembelajaran online, aku merasa masa-masa SMA 
+           ku tidak seindah yang dibayangkan. Banyak momen seru yang harusnya 
+           bisa dirasain bareng teman-teman jadi terlewat begitu saja. Tapi 
+           meskipun begitu, aku tetap bersyukur karena di sana aku bertemu 
+           dengan teman-teman yang baik, yang selalu support aku dan membuat masa SMA jadi lebih ringan dijalani.
+        Selain itu, aku juga bertemu dengan guru-guru yang sangat care dan selalu
+         memperlakukan muridnya seperti anak sendiri. Walaupun jarang ketemu secara 
+         langsung, mereka tetap sabar membimbing kami semua di tengah situasi sulit saat itu</p>
+</div>
+</body>
+</html>
